@@ -17,7 +17,7 @@ java SimpleEncrypter 0123456789abcdef encrypt clear_text_file.txt
 # or
 java SimpleEncrypter "0123As#$ J\"\'@9ç?" decrypt encrypted_text_file.txt
 ```
-You can use many special characters as password with some restrictions. As you can see in the last example, the password is between "" because it contains a space, and the '"' has a '\' before it. You should already be confortable using this sort of notation. The program itself is very self-explanatory, just run it without any arguments and read the '*USAGE:*'.
+You can use many special characters as password with some restrictions. As you can see in the last example, the password is between " " because it contains a space, and the ' " ' has a ' \ ' before it. You should already be confortable using this sort of notation. The program itself is very self-explanatory, just run it without any arguments and read the '**USAGE:**'.
 
 You can also compile the source that is in the '/src' directory with:
 ```sh
